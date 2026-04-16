@@ -28,6 +28,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: dhgtr/repo01:aula7.2
+        tags: dhgtr/repo01:caixa-proj-final
         
       
