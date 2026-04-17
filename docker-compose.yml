@@ -1,1 +1,13 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: movieflix_postgres
+    environment:
+      POSTGRES_USER: movieflix
+      POSTGRES_PASSWORD: movieflix
+      POSTGRES_DB: movieflix
+    ports:
+      - "5432:5432"
 
