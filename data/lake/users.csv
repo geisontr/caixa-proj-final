@@ -1,0 +1,21 @@
+user_id,name,email,country,signup_date
+1,Ana Silva,ana.silva@example.com,Brazil,2021-01-12
+2,João Pereira,joao.pereira@example.com,Brazil,2020-11-03
+3,Marcos Lima,marcos.lima@example.com,USA,2022-02-18
+4,Sophia Turner,sophia.turner@example.com,Canada,2021-07-22
+5,Lucas Almeida,lucas.almeida@example.com,Brazil,2020-05-30
+6,Emily Clark,emily.clark@example.com,UK,2022-03-14
+7,Carlos Mendes,carlos.mendes@example.com,Portugal,2021-09-10
+8,Julia Santos,julia.santos@example.com,Brazil,2019-12-01
+9,Daniel Costa,daniel.costa@example.com,Brazil,2022-01-05
+10,Laura Smith,laura.smith@example.com,USA,2020-08-19
+11,Pedro Rocha,pedro.rocha@example.com,Brazil,2021-04-11
+12,Isabella Cruz,isabella.cruz@example.com,Spain,2022-06-25
+13,Michael Brown,michael.brown@example.com,USA,2019-09-14
+14,Renata Souza,renata.souza@example.com,Brazil,2020-10-08
+15,Victor Hugo,victor.hugo@example.com,Brazil,2021-03-29
+16,Olivia Green,olivia.green@example.com,UK,2022-04-17
+17,Thiago Ramos,thiago.ramos@example.com,Brazil,2020-02-20
+18,Emma Johnson,emma.johnson@example.com,USA,2021-11-30
+19,Rafael Torres,rafael.torres@example.com,Brazil,2022-07-12
+20,Beatriz Melo,beatriz.melo@example.com,Brazil,2021-06-03
