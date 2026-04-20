@@ -1,4 +1,4 @@
-name: CI/CD MovieFlix Analytics
+name: CI/CD MovieFlix Analytics1
 
 on:
   push:
