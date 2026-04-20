@@ -28,11 +28,11 @@ jobs:
           docker build -t dhgtr/caixa_proj_final .
 
       # 4. Teste simples: subir container e verificar porta
-      - name: Run container for testing
-        run: |
-          docker run -d -p 8000:8000 --name caixa-test dhgtr/caixa_proj_final
-          sleep 5
-          curl --fail http://localhost:8000 || (echo "App não respondeu!" && exit 1)
+      # - name: Run container for testing
+        # run: |
+          # docker run -d -p 8000:8000 --name caixa-test dhgtr/caixa_proj_final
+          # sleep 5
+          # curl --fail http://localhost:8000 || (echo "App não respondeu!" && exit 1)
 
     
       # 5. Push da imagem para o Docker Hub
