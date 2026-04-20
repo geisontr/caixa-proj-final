@@ -1,0 +1,13 @@
+COPY movies(movie_id, title, genre, release_year, duration_min)
+FROM '/data/lake/movies.csv'
+DELIMITER ','
+CSV HEADER;
+COPY users(user_id, name, email, country, signup_date)
+FROM '/data/lake/users.csv'
+DELIMITER ','
+CSV HEADER;
+COPY ratings(user_id, movie_id, rating, rating_date)
+FROM '/data/lake/ratings.csv'
+DELIMITER ','
+CSV HEADER;
+
