@@ -25,7 +25,7 @@ jobs:
       # 3. Build da imagem Docker
       - name: Build Docker image
         run: |
-          docker build -t dhgtr/caixa_proj_final .
+          docker build -t dhgtr/caixa_proj_final:proj_final
 
       # 4. Teste simples: subir container e verificar porta
       - name: Run container for testing
