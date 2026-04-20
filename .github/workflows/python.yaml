@@ -37,7 +37,7 @@ jobs:
       # 5. Tag da imagem para o Docker Hub
       - name: Tag image
         run: |
-          docker tag caixa_proj_final dhgtr/caixa_proj_final:proj_final
+          docker tag dhgtr/caixa_proj_final dhgtr/caixa_proj_final:proj_final
 
       # 6. Push da imagem para o Docker Hub
       - name: Push image to DockerHub
